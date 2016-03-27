@@ -1,0 +1,86 @@
+$background-color: #333;
+$font-color: #ccc;
+$reason-height: 150px;
+$positive-cause-color: green;
+$negative-cause-color: red;
+body {
+    background: radial-gradient($background-color, darken($background-color, 15%));
+    color: $font-color;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin: 5% 0 0 0;
+    opacity: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+h1 {
+    margin-top: .6em;
+    font-size: 1.5em;
+}
+
+p {
+    margin-bottom: 0em;
+}
+
+.col1 {
+    width: 10%;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    
+    #user-image {
+        border-style: solid;
+        border-color: white;
+        border-width: .5em .5em 2em .5em;
+        box-shadow: .1em .1em .2em black;
+    }
+}
+
+.col2 {
+    width: 65%;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+.highlight {
+    color: lighten($font-color, 25%);
+    font-weight: 400;
+}
+
+.content {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    line-height: 1.5em;
+}
+
+.content:not(:last-child) {
+    border-bottom: 1px solid lighten($background-color, 30%);
+}
+
+.fadein {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+a,
+a:visited {
+    color: #F0DD11;
+}
+
+footer {
+    display: none;
+    position: absolute;
+    top: 100%;
+    font-size: .7em;
+    text-align: right;
+    width: 100%;
+    padding: 1% 2% 1% 1%;
+    box-sizing: border-box;
+}

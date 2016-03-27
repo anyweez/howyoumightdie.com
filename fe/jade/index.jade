@@ -1,0 +1,24 @@
+doctype html
+
+head
+    title how you might die
+    link(href='https://fonts.googleapis.com/css?family=Lato:400,300', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='css/style.css')
+
+    script(type='text/javascript', src='js/app.js')
+    
+body
+    div(class='col1')
+        img(id='user-image')
+        
+    div(class='col2')
+        div(class='content')
+            h1 Say hi to #[span(class='highlight name') ...]. 
+            p #[span(class='highlight name') ...] is an #[span(class='highlight') American], and is going to die from #[span(class='highlight cause') ...].
+        div(class='content')
+            p(id='details')
+        div(class='content')
+            p #[span(class='highlight name') ...] isn't real, but roughly #[span(class='highlight deaths') ...] #[span(class='highlight') Americans] will die each year from #[span(class='highlight cause') ...], which accounts for about #[span(class='highlight percent') ...] of the deaths in this country.  Consider #[a(id='donate') donating] to a respectable charity, or refresh the page to simulate another person.
+    footer
+      p the goal of this site is to raise awareness about actual death rates backed by #[a(href='http://www.cdc.gov/nchs/fastats/deaths.htm') reputable sources] - all people are #[a(href='https://randomuser.me/') randomly generated] and any likeness to actual people is coincidental - this site accounts for death rates for the top 15 causes according to the US CDC as well as infrequent but popularized causes like terrorism, lightning strikes, and shark attacks
+      p created by luke segars

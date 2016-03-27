@@ -1,0 +1,107 @@
+/* jslint browserify: true */
+
+module.exports = [{
+    name: 'heart disease',
+    description: "<p>Heart disease includes conditions like coronary artery disease and heart attacks, as well as congenital forms of heart disease. Death is often caused by heart attacks, cardiac arrest, congestive heart failure, or other issues with the movement of blood through the heart or the heart's ability to pump it.</p><p>Heart disease comes in many forms, and prevention measures vary depending on the type. In general, you can reduce your risk by maintaining an active lifestyle, monitoring and controling cholesterol and stress levels, and avoiding smoking.</p>",
+    pct: 0.235,
+    deaths: 611105,
+    donation: 'http://www.charitynavigator.org/index.cfm?keyword_list=heart+disease&Submit2=Search&bay=search.results&sortby=rtg',
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'malignant neoplasms',
+    description: '<p>Malignant neoplasms refer to invasive tumors, and include all forms of malignant cancer. Lung and breast cancer are the biggest killers, but many parts of the body can be affected. </p><p>Cancer comes in many forms, and prevention measures sometimes vary depending on the type. Good practices for reducing overall cancer risks include getting to and maintaining a healthy weight, exercising regularly, stop smoking, eating a healthy diet, and getting regular screening tests to detect problems as early as possible.</p>',
+    pct: 0.225,
+    deaths: 584881,
+    donation: 'http://www.charitynavigator.org/index.cfm?keyword_list=heart+disease&Submit2=Search&bay=search.results&sortby=rtg',
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'a chronic lower respiratory disease',
+    description: "Chronic lower respiratory diseases affect the lungs and impede the body's access to oxygen, and includes emphysema, chronic bronchitis, and asthma.",
+    pct: 0.057,
+    deaths: 149205,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'an accident',
+    description: 'Accidents include unintentional injuries like car accidents, falls, accidental poisoning, and similar incidents.',
+    pct: 0.050,
+    deaths: 130557,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'a cerebrovascular disease',
+    description: 'Cerebrovascular diseases includes strokes and other conditions that impede the supply of blood to the brain.',
+    pct: 0.050,
+    deaths: 128978,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: "Alzheimer's disease",
+    description: "<p>Many patients with Alzheimer's disease can survive for many years after being diagnosed, but often die due to complications from their diminished mental functions such as pneumonia, falls, automobile accidents, or malnutrition.</p><p>The best way to reduce your risk of Alzheimer's is to exercise regularly, have a healthy diet, get lots of quality sleep, and have regular mental stimulation.</p>",
+    pct: 0.033,
+    deaths: 84767,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'diabetes mellitus',
+    description: "Diabetes mellitus include Type I, Type II, and gestational diabetes, all which affect your ability to break down sugars from food. Diabetes can damage blood vessel networks and lead to kidney failure, heart disease, strokes, or nerve damage.",
+    pct: 0.029,
+    deaths: 75578,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'influenza or pneumonia',
+    description: 'Description not yet available',
+    pct: 0.022,
+    deaths: 56979,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'nephritis, nephrotic syndrome or nephrosis',
+    description: 'Description not yet available',
+    pct: 0.018,
+    deaths: 47112,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'intentional self-harm',
+    description: 'Description not yet available',
+    pct: 0.016,
+    deaths: 41149,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'septicemia',
+    description: 'Description not yet available',
+    pct: 0.015,
+    deaths: 38156,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'chronic liver disease or cirrhosis',
+    description: 'Description not yet available',
+    pct: 0.014,
+    deaths: 36427,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'essential hypertension or hypertensive renal disease',
+    description: 'Description not yet available',
+    pct: 0.012,
+    deaths: 30770,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: "Parkinson's disease",
+    description: 'Description not yet available',
+    pct: 0.010,
+    deaths: 25196,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'pneumonitis due to solids and/or liquids',
+    description: 'Description not yet available',
+    pct: 0.007,
+    deaths: 18579,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: '"other causes"',
+    description: '"Other causes" accounts for forms of death not reported by our sources.',
+    pct: 0.207,
+    deaths: 537554,
+    source: 'http://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_02.pdf',
+}, {
+    name: 'terrorist activity',
+    description: 'Terrorist activity includes the use of unlawful force, domestic or otherwise, intended to intimidate or coerce a government or population in furtherance of political or social objectives.',
+    pct: 0.00000269542,
+    deaths: 7,
+    source: '',
+}];

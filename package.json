@@ -1,0 +1,11 @@
+{
+  "name": "howyoumightdie.com",
+  "version": "1.0.0",
+  "description": "Website to give people a real simulation of various probabilities of death.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "anyweez (Luke Segars)",
+  "license": "ISC"
+}
